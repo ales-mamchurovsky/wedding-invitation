@@ -1,0 +1,68 @@
+.container {
+  min-height: 100vh;
+  padding: 0px max(calc(100% - 500px) / 2, 0px);
+  background-color: #cec3bd;
+}
+
+.dateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-family: "Cormorant Infant", serif;
+  letter-spacing: 3px;
+  line-height: 70px;
+  font-size: 76px;
+  font-weight: 300;
+
+  margin-bottom: 32px;
+}
+
+.dateContainer .dot {
+
+  font-size: 48px;
+  line-height: 26px;
+}
+
+
+.namesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 56px;
+
+  margin-bottom: 60px;
+  font-family: "EB Garamond", serif;
+
+  font-weight: 300;
+  line-height: 48px;
+}
+
+.content {
+  padding: 70px 0px;
+  background-color: #faf5f2;
+  min-height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.entrenceLogo {
+  border-radius: 16px;
+}
+
+.entrenceText {
+  padding: 0px 36px;
+  text-align: center;
+
+  font-size: 24px;
+  
+
+  font-family: "EB Garamond", serif;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
